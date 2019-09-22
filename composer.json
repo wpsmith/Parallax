@@ -1,0 +1,36 @@
+{
+  "name": "wpsmith/parallax",
+  "description": "WordPress customizer.",
+  "keywords": [
+    "wordpress",
+    "customizer",
+    "admin",
+    "parallax"
+  ],
+  "homepage": "https://github.com/wpsmith/Parallax",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Travis Smith",
+      "email": "t@wpsmith.net",
+      "homepage": "https://wpsmith.net/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/wpsmith/Parallax/issues"
+  },
+  "require": {
+    "php": ">=5.6.0",
+    "wpsmith/script": "dev-master",
+    "wpsmith/singleton": "^1.0.2"
+  },
+  "autoload": {
+    "files": [
+      "src/functions.php"
+    ],
+    "psr-4": {
+      "WPS\\WP\\Parallax\\": "src/"
+    }
+  }
+}
