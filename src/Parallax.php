@@ -19,7 +19,7 @@
 
 namespace WPS\WP\Parallax;
 
-use WPS\Scripts;
+use WPS\WP\Scripts;
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {
